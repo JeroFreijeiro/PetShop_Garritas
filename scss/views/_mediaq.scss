@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+    .container_index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "elemento1"
+        "elemento3"
+        "elemento3"
+        "elemento2"
+        "elemento4";
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container_contactanos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "elemento1"
+        "elemento2"
+        "elemento2"
+        "elemento3"
+        "elemento4";
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container_galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "elemento1"
+        "elemento3"
+        "elemento3"
+        "elemento3"
+        "elemento4";
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container_nosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "elemento1"
+        "elemento2"
+        "elemento2"
+        "elemento3"
+        "elemento4";
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container_ventas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "elemento1"
+        "elemento3"
+        "elemento5"
+        "elemento2"
+        "elemento2"
+        "elemento4";
+    }
+    
+}
