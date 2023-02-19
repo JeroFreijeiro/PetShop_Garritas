@@ -1,0 +1,23 @@
+header{
+    background-color: map-get($paleta_de_colores , quinto) ;  
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px;
+    .contenedorLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        .logo{
+            width: 35%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 50%;
+        }
+    }
+}
+
+

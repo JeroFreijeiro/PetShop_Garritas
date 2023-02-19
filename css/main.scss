@@ -1,11 +1,15 @@
 @import "../scss/variables/colors";
-@import "../scss/variables/images";
+@import "../scss/funciones/mixin";
 @import "../scss/normalize/reset";
 /* layouts */
 @import "../scss/layouts/grids";
 @import "../scss/layouts/flex";
 /* components */
+@import "../scss/components/body";
+@import "../scss/components/header";
 @import "../scss/components/navbar";
+@import "../scss/components/galeria";
+@import "../scss/components/footer";
 /* view */
 @import "../scss/views/mediaq";
 
